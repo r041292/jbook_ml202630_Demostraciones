@@ -1,0 +1,4 @@
+.venv/
+libro/_build/
+# Fotos originales: ya hay copias en libro/imagenes
+Image*.jpg

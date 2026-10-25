@@ -1,0 +1,10 @@
+format: jb-book
+root: intro
+parts:
+  - caption: Demostraciones
+    chapters:
+      - file: 01_knn_riesgo
+      - file: 02_lasso
+      - file: 03_ridge
+      - file: 04_arbol_decision
+      - file: 05_adaboost

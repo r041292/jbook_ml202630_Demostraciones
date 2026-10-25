@@ -1,0 +1,40 @@
+title: "Demostraciones de Machine Learning"
+author: "Rubiel Velasquez"
+copyright: "2026"
+logo: ""
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - colon_fence
+    - deflist
+    - html_image
+    - substitution
+
+sphinx:
+  config:
+    language: es
+    mathjax3_config:
+      tex:
+        macros:
+          "E": "\\mathbb{E}"
+          "P": "\\mathbb{P}"
+          "R": "\\mathbb{R}"
+          "sgn": "\\operatorname{sgn}"
+          "argmin": "\\operatorname*{argmin}"
+          "uno": "\\mathbf{1}"
+
+repository:
+  url: https://github.com/r041292/jbook_ml202630_Demostraciones
+  path_to_book: libro
+  branch: main
+
+html:
+  use_repository_button: true
+  use_issues_button: false
+  use_edit_page_button: false
